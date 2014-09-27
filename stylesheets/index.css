@@ -1,0 +1,79 @@
+/*webfont*/
+@font-face {
+/*
+  font-family: smartfontui;
+  src: url('../fonts/03SmartFontUI.eot');
+*/
+}
+@font-face { 
+/*
+  font-family: smartfontui;
+  src: url('../fonts/03SmartFontUI.ttf') format("truetype");
+*/
+}
+/*
+span.smartfontui { font-family: smartfontui, sans-serif; }
+span.smartfontui_blue { color: #167BB6; font-size : 20px;}
+*/
+
+html {
+}
+
+/*basic*/
+a {
+  color : #313232;
+}
+#navi a:hover,
+a.opacity img:hover {
+	opacity: .70; /* Standard: Firefox 1.5以上, Opera, Safari */
+	filter: alpha(opacity=70); /* IE 8以下 */
+	-ms-filter: "alpha(opacity=70)"; /* IE 8 */
+	-khtml-opacity: .70; /* Safari 1.x */
+	-moz-opacity: .70; /* Firefox 1.5以下, Netscape */
+}
+
+#container {
+  width : 100%;
+  height : auto;
+}
+
+
+/*header*/
+
+/*footer*/
+
+
+/*fixednavi*/
+#fixednavi {
+  width : 100%;
+  height : 60px;
+  background-color : white;
+  position : absolute;
+  top : 774px;
+  z-index : 1000;
+}
+#fixednavi ul {
+  width : 1100px;
+  height : 60px;
+  position : relative;
+  left : 50%;
+  margin-left : -550px;
+}
+#fixednavi ul li {
+  position : relative;
+  float : left;
+  text-align : center;
+  height : 40px; /*padding20px+40px*/
+  padding-top : 20px;
+}
+
+
+
+
+/*menu_bar移動時*/
+#fixednavi.move {
+  position: fixed;
+  top: 0;
+}
+
+
